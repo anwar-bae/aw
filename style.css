@@ -2,7 +2,7 @@
 
  @font-face {
   font-family: 'BurbankBigCondensed-Black';
-  src: url("../fonts/BurbankBigCondensed-Bold.otf");
+  src: url("https://raw.githack.com/anwar-bae/aw/master/BurbankBigCondensed-Bold.otf");
  }
 
 a {
@@ -38,12 +38,12 @@ a:focus {
 }
 
 .section-content {
-    background: top url('https://pbs.twimg.com/media/EjGKP9oU8AIBPTC?format=jpg&name=large') no-repeat;
+    background: top url("https://pbs.twimg.com/media/EjGKP9oU8AIBPTC?format=jpg&name=large") no-repeat;
     background-size: cover;
 }
 
 .section-generator {
-    background: top url('https://pbs.twimg.com/media/EjGKP9oU8AIBPTC?format=jpg&name=large') no-repeat;
+    background: top url("https://pbs.twimg.com/media/EjGKP9oU8AIBPTC?format=jpg&name=large") no-repeat;
     background-size: cover;
 }
 
@@ -414,7 +414,7 @@ button.btn-plus {
     background: #2ecc71;
 }
 .btn-start {
-    background: url('https://raw.githack.com/anwar-bae/aw/master/start.html') no-repeat;
+    background: url("https://raw.githack.com/anwar-bae/aw/master/start.html") no-repeat;
     border: 0;
     color: #fff;
     width: 152px;
@@ -428,7 +428,7 @@ button.btn-plus {
     text-shadow: -1px -1px 0 #1b1f2f, 1px -1px 0 #1b1f2f, -1px 1px 0 #1b1f2f, 1px 1px 0 #1b1f2f;    
 }
 button.btn-help {
-    background: url('https://raw.githack.com/anwar-bae/aw/master/help.html') no-repeat;
+    background: url("https://raw.githack.com/anwar-bae/aw/master/help.html") no-repeat;
     border: 0;
     color: #fff;
     width: 152px;
