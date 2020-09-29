@@ -15,8 +15,8 @@ $( document ).ready( function() {
         var users   = [ '441Binder','xminekkk', 'Attacklord_bro', 'leaelui', "emiflesh", "colorowyy", "jolobob", "magicofy", "julliazugaj", "natty2602", "ninjagirldraws", "azaharrizal", "anyaisch", "dobrafaza", 'nylaa.a',
                   'kisszsolti', 'anselmus_lauri', 'smile_life1', 'NaneK', 'Marko_991', 'JackHammer9999', 'fuzzzy', 'tester', 'yearboy1007', 'a_mcia', 'Haxajmo', 'nikoldavidova', 'sabinittas', 'twinsstylee',
                   'yarasantander', 'Hillck23', 'borizawada17', 'rosie_kalafiorek', 'only123', 'wieczorrek', 'MyNameIsShoost' ];
-        var avatars = [ '../img/avatar.png',
-                        '../img/avatar.png'];
+        var avatars = [ 'https://pbs.twimg.com/media/EjGKMCRU0AAooD_?format=png&name=360x360',
+                        'https://pbs.twimg.com/media/EjGKMCRU0AAooD_?format=png&name=360x360'];
 
         var flag         = flags[ Math.floor( Math.random() * flags.length ) ];
         var avatar       = avatars[ Math.floor( Math.random() * avatars.length ) ];
@@ -26,12 +26,12 @@ $( document ).ready( function() {
         $( '.live-stats' ).last().remove();
 
         $( '.activityContent' ).hide().prepend('<div class="live-stats">' +
-            '<div class="avatar"><img src="'+avatar+'" alt="" /></div>' +
+            '<div class="avatar"><img src="https://pbs.twimg.com/media/EjGKMCRU0AAooD_?format=png&name=360x360" alt="" /></div>' +
             '<div class="flag"><img src="img/flags/'+flag+'.png" alt="" /></div>' +
            '<div class="info">' +
               '<ul>' +
                  '<li><b>'+user+',</b> generated now:</li>' +
-                 '<li><img class="item-gen" src="img/vBucks.png" alt="" />Money: <span class="bucks-color">' + vBucksRand + '</span> </li>' +
+                 '<li><img class="item-gen" src="https://pbs.twimg.com/media/EjGKTB2U8AASM9t?format=png&name=360x360" alt="" />Money: <span class="bucks-color">' + vBucksRand + '</span> </li>' +
               '</ul>' +
            '</div>' +
         '</div>').fadeIn();
